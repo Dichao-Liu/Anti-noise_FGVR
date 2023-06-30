@@ -1,3 +1,4 @@
+
 # Anti-noise_FGVR
 
 
@@ -45,9 +46,8 @@ and save them as:
     ├── example
     ├── sam.py
 
-Also, you can simply run the following commands:
+Also, you can simply download by running the following commands (`subversion` should be installed beforehand: `sudo apt install subversion`):
 
-    sudo apt install subversion
     git clone https://github.com/Dichao-Liu/Anti-noise_FGVR.git
     cd Anti-noise_FGVR
     svn export https://github.com/Alibaba-MIIL/TResNet/branches/master/src
@@ -58,7 +58,7 @@ Also, you can simply run the following commands:
 
 ### Dataset
 
-* **(1) Download the Stanford Cars dataset or other datasets mentioned in the Paper, and organize the structure as follows:**
+* **(1) Download the Stanford Cars dataset or other datasets mentioned in the paper, and organize the structure as follows:**
 ```
 dataset folder
 ├── train
