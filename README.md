@@ -1,4 +1,5 @@
 
+
 # Anti-noise_FGVR
 
 
@@ -13,7 +14,11 @@ This source code was tested in the following environment:
     NVIDIA GeForce RTX 3080 Ti
 
 ### Pre-trained Models
+The pre-trained models can be downloaded from https://wani.teracloud.jp/share/11f23df41b4a6f82.
 
+`xxxxx_Network.pth` was saved by `torch.save(model, 'xxxxx_Network.pth')`.
+
+`xxxxx_Weight.pth` was saved by `torch.save(model.state_dict(), 'xxxxx_Weight.pth')`.
 
 ### Dependencies
 
@@ -33,7 +38,7 @@ Install `imgaug`:
 
 Download the folder `src` from https://github.com/Alibaba-MIIL/TResNet,
 the folder `vic` from https://github.com/styler00dollar/pytorch-loss-functions,
-the folder `example` and Python file `sam.py` from https://github.com/Alibaba-MIIL/TResNet,
+the folder `example` and Python file `sam.py` from https://github.com/davda54/sam,
 and save them as:
 
     Anti-noise_FGVR
@@ -46,7 +51,7 @@ and save them as:
     ├── example
     ├── sam.py
 
-Also, you can simply download by running the following commands (`subversion` should be installed beforehand: `sudo apt install subversion`):
+Also, you can simply download by running the following commands (note that `subversion` should be installed beforehand as `sudo apt install subversion`):
 
     git clone https://github.com/Dichao-Liu/Anti-noise_FGVR.git
     cd Anti-noise_FGVR
