@@ -51,7 +51,7 @@ and save them as:
     ├── example
     ├── sam.py
 
-Also, you can simply download by running the following commands (note that `subversion` should be installed beforehand as `sudo apt install subversion`):
+Alternatively, you can simply download by running the following commands (note that `subversion` should be installed beforehand as `sudo apt install subversion`):
 
     git clone https://github.com/Dichao-Liu/Anti-noise_FGVR.git
     cd Anti-noise_FGVR
