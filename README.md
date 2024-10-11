@@ -2,6 +2,9 @@
 
 # Anti-noise_FGVR
 
+This repository provides a PyTorch implementation of the fine-grained vehicle recognition method, as proposed in my paper: [Progressive Multi-Task Anti-Noise Learning and Distilling Frameworks for Fine-Grained Vehicle Recognition](https://ieeexplore.ieee.org/document/10623841).
+
+
 
 ### Environment
 
