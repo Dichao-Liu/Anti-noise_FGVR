@@ -14,11 +14,14 @@ This source code was tested in the following environment:
     NVIDIA GeForce RTX 3080 Ti
 
 ### Pre-trained Models
-The pre-trained models can be downloaded from https://wani.teracloud.jp/share/11f23df41b4a6f82.
+The pre-trained models can be downloaded from [this link](https://wani.teracloud.jp/share/11f23df41b4a6f82).
 
-`xxxxx_Network.pth` was saved by `torch.save(model, 'xxxxx_Network.pth')`.
+Please save the downloaded models in the `weightsFromCloud` folder.
 
-`xxxxx_Weight.pth` was saved by `torch.save(model.state_dict(), 'xxxxx_Weight.pth')`.
+The `xxxxx_Network.pth` file was saved using `torch.save(model, 'xxxxx_Network.pth')`.
+
+The `xxxxx_Weight.pth` file was saved using `torch.save(model.state_dict(), 'xxxxx_Weight.pth')`.
+
 
 ### Dependencies
 
