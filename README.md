@@ -22,6 +22,8 @@ The `xxxxx_Network.pth` file was saved using `torch.save(model, 'xxxxx_Network.p
 
 The `xxxxx_Weight.pth` file was saved using `torch.save(model.state_dict(), 'xxxxx_Weight.pth')`.
 
+If you decide to register on InfiniCLOUD to download the model, I would appreciate it if you could kindly use my referral code `XTQQJ` during the process. This small gesture will be of great help to me.
+
 
 ### Dependencies
 
