@@ -96,6 +96,9 @@ dataset folder
 
     python Stanford_Cars_ResNet50_PMAL.py
     python Stanford_Cars_ResNet50_Distillation.py
+    
+When training the student network, the `--from_local` option allows you to specify whether to use the teacher model downloaded from InfiniCLOUD or a model you have trained yourself using the provided code.
+
 
 ### Inference
 
