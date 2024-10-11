@@ -108,5 +108,23 @@ When training the student network, the `--from_local` option allows you to speci
     python Inference_Stanford_Cars_ResNet50_Student.py
 
 
+### Bibtex
+
+```
+@ARTICLE{10623841,
+  author={Liu, Dichao},
+  journal={IEEE Transactions on Intelligent Transportation Systems}, 
+  title={Progressive Multi-Task Anti-Noise Learning and Distilling Frameworks for Fine-Grained Vehicle Recognition}, 
+  year={2024},
+  volume={25},
+  number={9},
+  pages={10667-10678},
+  keywords={Noise;Task analysis;Image recognition;Multitasking;Training;Noise measurement;Accuracy;Fine-grained vehicle recognition;intelligent transportation systems;ConvNets;object recognition},
+  doi={10.1109/TITS.2024.3420151}
+}
+```
+
+
+
 
 
