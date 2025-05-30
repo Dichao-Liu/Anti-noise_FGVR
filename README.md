@@ -81,6 +81,12 @@ Alternatively, you can simply download by running the following commands (note t
     svn export https://github.com/davda54/sam/branches/main/sam.py
     svn export https://github.com/styler00dollar/pytorch-loss-functions/branches/main/vic
 
+> ⚠️ **Notice**  
+> The original `vic` folder used in this project is no longer available. It mainly contained a `CharbonnierLoss` implementation.  
+> If you're trying to reproduce the results, you may consider using this unofficial alternative:  
+> [https://gist.github.com/onion-liu/6b8c75585799243f2be1a98cb1bde5ad](https://gist.github.com/onion-liu/6b8c75585799243f2be1a98cb1bde5ad)  
+> Note: This version was found recently and has not been tested with this project, but it may serve as a good replacement.
+
 
 ### Dataset
 
